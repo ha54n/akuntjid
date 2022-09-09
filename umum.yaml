@@ -28,3 +28,29 @@ proxies:
     path: /howdy
     headers:
         Host: idtj-ikd.bonds.id
+- name: Trojan GO/WS (CDN)ID5
+  server: news.microsoft.com
+  port: 443
+  type: trojan
+  password: 616a3c80-3037-11ed-ba8b-1239d0255272
+  network: ws
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: idtj-ikd.bonds.id
+- name: Trojan GO/WS (CDN)ID6
+  server: news.microsoft.com
+  port: 443
+  type: trojan
+  password: 79c9fdd0-3037-11ed-b0d2-1239d0255272
+  network: ws
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: idtj-ikd.bonds.id
