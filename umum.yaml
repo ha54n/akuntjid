@@ -15,7 +15,7 @@ proxies:
     path: /vmess
     headers:
       Host: aws1.prideindo.xyz
-- name: Trojan GO/WS (CDN)ID4
+- name: Trojan GO/WS (CDN)ID4321
   server: news.microsoft.com
   port: 443
   type: trojan
